@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#nav{
+    display:flex;
+    justify-content:space-between;
+    background-color: orange;
+    padding: 0 2rem;
+    
+}
+#menu{
+    display: flex;
+    list-style: none;
+    padding: 0 1rem;
+    align-items: center;
+}
+.menu-item{
+    margin: 0 1rem;
+    font: bolder;
+    cursor: pointer;
+}
